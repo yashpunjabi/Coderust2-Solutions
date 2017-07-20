@@ -19,6 +19,8 @@ def quora_upvotes(arr, window_size):
     """
     ret = []
     index = 1
+
+    #lists to store the ranges at which non decreasing subsets can be found
     nonDec = []
     nonInc = []
 
